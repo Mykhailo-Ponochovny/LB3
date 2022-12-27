@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\LB2\\LB2\\LB2\\LB2.csproj": {}
+    "D:\\C#\\LB3\\LB2\\LB2.csproj": {}
   },
   "projects": {
-    "D:\\C#\\LB2\\LB2\\LB2\\LB2.csproj": {
+    "D:\\C#\\LB3\\LB2\\LB2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\LB2\\LB2\\LB2\\LB2.csproj",
+        "projectUniqueName": "D:\\C#\\LB3\\LB2\\LB2.csproj",
         "projectName": "LB2",
-        "projectPath": "D:\\C#\\LB2\\LB2\\LB2\\LB2.csproj",
+        "projectPath": "D:\\C#\\LB3\\LB2\\LB2.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\LB2\\LB2\\LB2\\obj\\",
+        "outputPath": "D:\\C#\\LB3\\LB2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

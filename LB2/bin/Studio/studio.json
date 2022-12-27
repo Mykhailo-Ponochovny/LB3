@@ -1,0 +1,1 @@
+{"name":"studio","address":"adress","trackPrice":500.0,"trackCreationTime":4.0,"rooms":[{"num":1,"instrumentsId":[],"workersId":["456"],"instruments":0,"workers":1}],"instruments":[{"id":"123","instrumentType":1,"price":12000.0}],"workersDic":{"456":{"id":"456","name":"ghfj","salary":645.0,"tracks":45}}}
